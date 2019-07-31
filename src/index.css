@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+.file-hierarchy-app{
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px 20px 10px;
+}
+
+.file-hierarchy-title {
+  text-align: center;
+}
+
+.tree-container{
+  padding: 5px 10px;
+  background: #fff;
+}
+
+.node {
+  width: fit-content;
+}
+.node.has-children:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.node-icon {
+  display: inline-block;
+  width: 15px;
+}
+
+.node-children-container {
+  padding-left: 30px;
+}
